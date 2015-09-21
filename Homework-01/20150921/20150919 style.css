@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#project {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+#content-box {
+    height: 200px;
+    padding: 100px;
+    background-color: white;
+    background-image: url(signboard.JPG);
+    background-repeat: no-repeat;
+    border: 10px pink;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#box1 {
+    background-color: #5f9ea0;
+    height: 220px;
+}
+
+#bottom {
+    background-color: #f0fff0;
+    margin: 50px;
+}
+
+#bubble {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    height: 1200px;
+    padding: 250px 100px 30px 40px;
+    background-color: white;
+    background-image: url(bubble.jpg);
+    background-repeat: no-repeat;
+}
+
+#cloud-chat {
+    max-width: 200px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 50px 100px 10px;
+    background-color: #f8f8ff;
+    background-image: url(cloud.jpg);
+    background-repeat: no-repeat;
+}
+
+#bubble3 {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding: 250px 100px 30px 40px;
+    background-color: white;
+    background-image: url(bubble.jpg);
+    background-repeat: no-repeat;
+}
+
+#menu {
+    position: fixed;
+    top: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #add;
+    border: 10px solid black;
+}
+
+#menu-item {
+    width: 50px;
+    height: 50px;
+}
