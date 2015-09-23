@@ -26,7 +26,7 @@
 }
 
 #box1 {
-    background-color: #5f9ea0;
+    background-color: #6699FF;
     height: 220px;
 }
 
@@ -82,4 +82,13 @@
 #menu-item {
     width: 50px;
     height: 50px;
+}
+
+#information{
+  padding:0px;
+  border:1.5px dashed;
+  margin: 50px;
+  width: 300px;
+  height: 200px;
+  background-color: #0099FF;
 }
