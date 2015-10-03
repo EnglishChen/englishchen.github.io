@@ -1,0 +1,30 @@
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
+ #box1 {
+     background-color: #dd0;
+     height: 50px;
+ }
+ 
+ #box2 {
+     background-color: #0dd;
+     height: 50px;
+ }
+ 
+ #box3 {
+     background-color: #dda0dd;
+     height: 50px;
+ }
+ 
+ #booter {
+     background-color: #7b68ee;
+     height: 50px;
+ }
+ 
+ header {
+     background-color: #00fa9a;
+     text-align: center;
+ }

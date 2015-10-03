@@ -45,6 +45,7 @@
     border-style: outset;
     background-image: url(silver.jpg);
     border-width: 15px;
+    line-height: 80px;
     float: left;
 }
 
