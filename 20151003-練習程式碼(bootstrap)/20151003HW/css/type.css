@@ -1,0 +1,36 @@
+.nav {
+    background-color: #003333;
+    height: 100px;
+}
+
+.nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 15px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.jumbotron {
+    background-color: #20b2aa;
+    vertical-align: middle;
+    height: 500px;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.learn-more {
+    background-color: #48d1cc;
+    font-family: 'shift, sans-serif';
+    font-size: 30px;
+    color: white;
+}
