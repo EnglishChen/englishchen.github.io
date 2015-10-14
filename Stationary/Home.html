@@ -2,9 +2,18 @@
 <html>
 
 <head>
-
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="NTU CSIE Information System Training Course">
+    <meta name="keywords" content="Keyword 1,Keyword 2">
+    <meta name="description" content="description">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <title>20151004-navbar all</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="assets/style/main.css">
 </head>
 
@@ -12,65 +21,133 @@
     <div class="container-fluid">
         <!-- nav bar  (bs:nav)=選單列  利用container 來裝 以下的選單-->
         <!-- nav=選單列  利用container 來裝 以下的選單-->
-        <nav class="nav navbar-default navbar-fixed-top">
+        <nav class="nav navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-            	  <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            	</button>
-            	  <ul>
-                    <li><a href="#">Name</a></li>
-                    <li><a href="#">Browse</a></li>
-                  </ul>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"></a>
                 </div>
-        <!-- 宣告 那些清單在縮小視窗時 要被toggle-->
+                <!-- 宣告 那些清單在縮小視窗時 要被toggle-->
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                    <!-- 新增下拉式選單-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown"     href="#">Testing on class
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span>
+                        Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <!-- 新增下拉式選單-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pencial
                             <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="20151004bs/20151004bs.html">20151004bs</a></li>
-                            <li><a href="20151004nav/nav-bar.html">20151004nav</a></li>
-                            <li>
-                                <a href="20151003HW/20151003.html">20151003HW</a>
-                            </li>
-                            <li>
-                                <a href="20151003HW/20151003+navbar.html">20151003HW nav</a>
-                            </li>
-                            <li>
-                                <a href="#"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a class="dropdorn-toggle" data-toggle="dropdown" href="#">Homweork
-                    	<span class="caret"></span>
-                    	</a>
-                    	<ul class="dropdown-menu">
-                    		<li><a href="20151004nav/nav-bar-thumbnail.html">20151004</a></li>
-                    		<li><a href="#"></a></li>
-                    		<li><a href="#"></a></li>
-                    	</ul>	
-                    </li>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>	
-                     Login</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-sunglasses"></span>Help</a></li>
-                    </ul>	
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Eraser
+                            <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Function Pen
+                            <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">NoteBook
+                            <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-
         <!-- Jumbotron-->
         <div class="jumbotron">
             <div class="container">
-                <h1>Find a place to stay.</h1>
+                <h1>Stationary</h1>
                 <p>Rent from people in over 34,000 cities and 192 countries.</p>
                 <a class="btn btn-primary btn-lg" href="#">Learn More</a>
+            </div>
+        </div>
+        </br>
+        <hr>
+        <!-- thumbnail-->
+        <div class="row">
+            <div class="thumbnail"><img src="assets/images/night.JPG" height="413" width="900" alt="">
+                <div class="caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                </img>
             </div>
         </div>
         <!-- Pic and Title-->
