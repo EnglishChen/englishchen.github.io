@@ -24,18 +24,37 @@
     .jumbotron .container {
         position: relative;
         top: 100px;
+
+
     }
     
     .jumbotron h1 {
         color: white;
-        font-size: 60px;
+        font-size: 80px;
         font-weight: bold;
-        font-family: 'shift, sans-serif';
+        font-family: 'Harrington';
     }
     
     .jumbotron p {
         color: white;
-        font-size: 20px;
+        font-size: 40px;
+        font-family: 'Berlin Sans FB';
+    }
+
+    .content1 {
+        padding: 100px 0px 100px 0px;
+    }
+    .content1 h2{
+         text-align: center;
+    }
+
+    .content1 p{
+        text-align: center;
+    }
+
+    .thumbnail {
+        height: 300px;
+
     }
     
     .btn {
