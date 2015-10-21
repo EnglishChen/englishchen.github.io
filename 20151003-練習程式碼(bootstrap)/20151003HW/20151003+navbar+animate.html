@@ -12,9 +12,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/favicon.png">
     <title>title</title>
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/type1.css">
+    <script src="wow.min.js"></script>
 </head>
 
 <body>
@@ -44,7 +46,7 @@
             <div class="container">
                 <img src="img/profile.png" height="256" width="256" alt="">
                 <h1>START BOOTSTRAP</h1>
-                <br>
+                <hr class="star-light">
                 <p>Web Developer-Graphic Artist-User Experience Designer.</p>
             </div>
         </div>
@@ -55,16 +57,16 @@
                 <br>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="thumbnail"><img src="img/portfolio/cabin.png" height="650" width="900" alt=""></div>
-                        <div class="thumbnail"><img src="img/portfolio/game.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/cabin.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/game.png" height="650" width="900" alt=""></div>
                     </div>
                     <div class="col-md-4">
-                        <div class="thumbnail"><img src="img/portfolio/cake.png" height="650" width="900" alt=""></div>
-                        <div class="thumbnail"><img src="img/portfolio/safe.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/cake.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/safe.png" height="650" width="900" alt=""></div>
                     </div>
                     <div class="col-md-4">
-                        <div class="thumbnail"><img src="img/portfolio/circus.png" height="650" width="900" alt=""></div>
-                        <div class="thumbnail"><img src="img/portfolio/submarine.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/circus.png" height="650" width="900" alt=""></div>
+                        <div class="thumbnail wow bounceInDown"><img src="img/portfolio/submarine.png" height="650" width="900" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -104,6 +106,9 @@
         </div </div>
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
 </body>
 
 </html>

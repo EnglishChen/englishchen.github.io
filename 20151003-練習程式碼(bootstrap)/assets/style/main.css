@@ -9,6 +9,17 @@
     display: inline;
 }
 
+.dropdown {
+    transition: width 5s, height 5s, background-color5s;
+    -webkit-transition: width 5s, height 5s, background-color5s;
+}
+
+.dropdown-menu:hover {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f8ff;
+}
+
 .jumbotron {
     background-image: url('../images/Kyoto.jpg');
     height: 500px;
