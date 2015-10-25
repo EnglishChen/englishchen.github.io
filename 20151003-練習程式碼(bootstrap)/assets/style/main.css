@@ -10,14 +10,22 @@
 }
 
 .dropdown {
-    transition: width 5s, height 5s, background-color5s;
-    -webkit-transition: width 5s, height 5s, background-color5s;
+    -webkit-transition: width3s, height3s, background-color3s, duration3s;
+    transition: width3s, height3s, background-color3s, duration 3s;
 }
 
-.dropdown-menu:hover {
-    width: 100px;
-    height: 100px;
-    background-color: #f0f8ff;
+.dropdown:active {
+    background-color: #ff4500;
+}
+
+.dropdown ul {
+    transition: width 2s, height 2s, background-color 2s, color 2s;
+    -webkit-transition: width 2s, height 2s, background-color 2s, color 2s;
+}
+
+.dropdown ul:hover {
+    background-color: rgba(58, 118, 118, 0.4);
+    color: rgb(222, 71, 158);
 }
 
 .jumbotron {

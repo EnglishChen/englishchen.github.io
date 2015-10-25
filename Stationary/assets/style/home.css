@@ -1,0 +1,46 @@
+header:after,
+aside:after,
+.content:after,
+footer:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.topnav {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    margin: 0 5px 5px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav a {
+    padding: 10px 20px;
+    text-decoration: none;color: white;
+background-color: #5f9ea0;
+
+    line-height: 100%;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    color: blue;
+}
+
+.topnav .current a {
+    background-color: #999;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {}
