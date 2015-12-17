@@ -1,10 +1,8 @@
-header:after
-aside:after
-.content:after,
+header:after aside:after .content:after,
 footer:after {
-	content: "";
-	clear: both;
-	display: block;
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .dropdown {
@@ -13,9 +11,10 @@ footer:after {
 }
 
 .dropdown:hover {
-	background-color: rgba(187, 244, 255, 0.3);
-	color: rgb(251, 189, 251);
+    background-color: rgba(187, 244, 255, 0.3);
+    color: rgb(251, 189, 251);
 }
+
 .dropdown:active {
     background-color: #b0c4de;
 }
@@ -28,49 +27,71 @@ footer:after {
 .dropdown ul:hover {
     background-color: rgba(251, 189, 251, 0.4);
     color: rgb(222, 71, 158);
-/*    background-color: rgba(0, 0, 0, 0.8);*/
-/*    color: rgb(248, 24, 61);*/
-/*    width: 15px;*/
+    /*    background-color: rgba(0, 0, 0, 0.8);*/
+    /*    color: rgb(248, 24, 61);*/
+    /*    width: 15px;*/
 }
 
 .topnav {
-	text-align: center;
-	margin: 30px 0;
+    text-align: center;
+    margin: 30px 0;
 }
 
-.topnav ul{
-	margin: 0;
-	padding: 0;
+.topnav ul {
+    margin: 0;
+    padding: 0;
 }
 
-.topnav li{
-	margin: 0 50px 5px 0;
-	padding: 0;
-	list-style: none;
-	display: inline-block;
+.topnav li {
+    margin: 0 50px 5px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
 }
 
-.title .jumbotron{
-    background-image: url('/assets/image/taipei.jpg');
-	height: 600px;
-	background-repeat: no-repeat;
-	background-size: cover;
+.title .jumbotron {
+    background-image: url('../image/taipei.gif');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.title .jumbotron .container{
-	position: relative;
-	top: 100px;
-	text-align: center;
+.title .jumbotron:hover {
+    background-image: url('../image/bg-2.jpg');
 }
 
-.title .jumbotron h1{
-/*	color: #ffff00;*/
-	font-size: 70px;
-	font-family: 'High Tower Text';
+.title .jumbotron .container {
+    position: relative;
+    top: 100px;
+    text-align: center;
 }
 
-.title .jumbotron p{
-	padding-top: 50px;
-	font-family: 'Lucida Handwriting';
-	font-size: 15px;
+.title .jumbotron h1 {
+    /*	color: #ffff00;*/
+    font-size: 70px;
+    font-family: 'High Tower Text';
+}
+
+.title .jumbotron p {
+    color: white;
+    padding-top: 50px;
+    font-family: 'Lucida Handwriting';
+    font-size: 23px;
+}
+
+.japan .jumbotron {
+    background-image: url('../image/bg-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taipei .jumbotron {
+    background-image: url('../image/taipei.jpg');
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+}
+
+.taipei .jumbotron:hover {
+    background-image: url('../image/taipei2.jpg');
 }
