@@ -19,30 +19,45 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- navbar -->
-        <nav class="topnav">
-            <ul id="travel">
-                <li><a class="glyphicon glyphicon-home" href="../首頁/Homepage+navbar+animate.html"> Home</a></li>
-                <li><a class="glyphicon glyphicon-blackboard" href="../20151003-練習程式碼(bootstrap)/bssample_nav.html"> HTML HomePage</a></li>
-                <li><a class="glyphicon glyphicon-pencil" href="../Stationary/Stationary-Home.html"> Stationary</a></li>
-                <li class="dropdown">
-                    <a class="glyphicon glyphicon-plane" data-toggle="dropdown" href="#"> Travel
-                	<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#japan">♨ Japan   </a></li>
-                        <li><a href="#taipei">✌ Taipei  </a></li>
-                        <li><a href="#taichung">☼ Taichung</a></li>
-                        <li><a href="#tainan">☻ Tainan  </a></li>
-                        <li><a href="#kaohsung">☀ Kaohsung</a></li>
-                    </ul>
-                </li>
-                <li><a class="glyphicon glyphicon-education" href="#"> Toys</a></li>
-                <li><a class="glyphicon glyphicon-thumbs-up" href="#"> Favorite</a></li>
-                <li><a class="glyphicon glyphicon-eye-open" href="#"> About</a></li>
-            </ul>
+        <nav class="nav">
+        	<div class="container">
+        		<div class="navbar-header">
+        			<ul>				
+        				<button class="navbar-toggle" data-toggle="collapse" data-target="#travel">
+        					<span class="icon-bar"></span>	
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        				</button>
+        			</ul>
+        			<li><a class="glyphicon glyphicon-home" href="../首頁/Homepage+navbar+animate.html"> Home</a></li>
+        		</div>
+        	<!-- 宣告 那些清單 id=myNavbar 在縮小視窗時 要被toggle -->
+        		<div class="collapse navbar-collapse" id="travel">
+        			<ul class="topnav">
+<!--         				<li><a class="glyphicon glyphicon-home" href="../首頁/Homepage+navbar+animate.html"> Home </a></li> -->
+        				<li><a class="glyphicon glyphicon-blackboard" href="../20151003-練習程式碼(bootstrap)/bssample_nav.html"> HTML HomePage</a></li>
+	               		 <li><a class="glyphicon glyphicon-pencil" href="../Stationary/Stationary-Home.html"> Stationary </a></li>
+                         <li><a class="glyphicon glyphicon-tags" href="#"> Lecture</a></li>
+		                <li class="dropdown" id="current">
+		                    <a class="glyphicon glyphicon-plane" data-toggle="dropdown" href="#"> Travel
+		                	<span class="caret"></span></a>
+		                    <ul class="dropdown-menu">
+		                        <li><a href="#japan">♨ Japan   </a></li>
+		                        <li><a href="#taipei">✌ Taipei  </a></li>
+		                        <li><a href="#taichung">☼ Taichung</a></li>
+		                        <li><a href="#tainan">☻ Tainan  </a></li>
+		                        <li><a href="#kaohsung">☀ Kaohsiung</a></li>
+		                    </ul>
+		                </li>
+		                <li><a class="glyphicon glyphicon-education" href="#"> Toys</a></li>
+		                <li><a class="glyphicon glyphicon-thumbs-up" href="#"> Favorite</a></li>
+		                <li><a class="glyphicon glyphicon-eye-open" href="#"> About</a></li>
+        			</ul>
+        		</div>
+        	</div>
         </nav>
-        <hr>
         <!--jumbotron -->
         <div class="title">
             <div class="jumbotron">
@@ -57,21 +72,22 @@
         <div class="japan">
             <div class="jumbotron">
                 <div class="container">
-                    <h1 id="japan">Kansai   かんさい 2015/10/31~2015/11/8 </h1>
+                    <h1 id="japan">Kansai   かんさい </h1>
+                    <h2>2015/10/31~2015/11/8 </h2>
                     <p></p>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/nara.jpg" onmouseover="this.src='../Travel/assets/image/1031-2.jpg';" onmouseout="this.src='../Travel/assets/image/nara.jpg';">
                                 <div class="caption">
-                                    <h2>Day1 </h2>
+                                    <h3>Day1 </h3>
                                     <p>小鹿小鹿梅花鹿.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="marry">
                             <div class="thumbnail"><img src="../Travel/assets/image/kiyomizu.jpg" onmouseover="this.src='../Travel/assets/image/1101-2.jpg';" onmouseout="this.src='../Travel/assets/image/kiyomizu.jpg';">
                                 <div class="caption">
-                                    <h2>Day2</h2>
+                                    <h3>Day2</h3>
                                     <p>Lorem ipsum dolor sit amet!</p>
                                 </div>
                             </div>
@@ -79,7 +95,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/golden.jpg" onmouseover="this.src='../Travel/assets/image/1102-2.jpg';" onmouseout="this.src='../Travel/assets/image/golden.jpg';">
                                 <div class="caption">
-                                    <h2>Day3</h2>
+                                    <h3>Day3</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -89,7 +105,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1103-1.jpg" onmouseover="this.src='../Travel/assets/image/1103-2.jpg';" onmouseout="this.src='../Travel/assets/image/1103-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day4</h2>
+                                    <h3>Day4</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -97,7 +113,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1104-1.jpg" onmouseover="this.src='../Travel/assets/image/1104-2.jpg';" onmouseout="this.src='../Travel/assets/image/1104-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day5</h2>
+                                    <h3>Day5</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -105,7 +121,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1105-1.jpg" onmouseover="this.src='../Travel/assets/image/1105-2.jpg';" onmouseout="this.src='../Travel/assets/image/1105-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day6</h2>
+                                    <h3>Day6</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -115,7 +131,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1106-1.jpg" onmouseover="this.src='../Travel/assets/image/1106-2.jpg';" onmouseout="this.src='../Travel/assets/image/1106-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day7</h2>
+                                    <h3>Day7</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -123,7 +139,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1107-1.jpg" onmouseover="this.src='../Travel/assets/image/1107-2.jpg';" onmouseout="this.src='../Travel/assets/image/1107-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day8</h2>
+                                    <h3>Day8</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -131,7 +147,7 @@
                         <div class="col-md-4">
                             <div class="thumbnail"><img src="../Travel/assets/image/1108-1.jpg" onmouseover="this.src='../Travel/assets/image/1108-2.jpg';" onmouseout="this.src='../Travel/assets/image/1108-1.jpg';">
                                 <div class="caption">
-                                    <h2>Day9</h2>
+                                    <h3>Day9</h3>
                                     <p></p>
                                 </div>
                             </div>
@@ -147,7 +163,7 @@
                 <div class="container-fluid">
                     <h1 id="taipei">Taipei</h1>
                     <p></p>
-                    <div class="row">
+<!--                     <div class="row">
                         <div class="col-md-">
                             <div class="thumbnail"><img src="" alt="">
                                 <div class="caption">
@@ -156,63 +172,71 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
                 </div>
             </div>
         </div>
         <!-- Jumbotron + Thumbnail 3 Taichung -->
-        <div class="jumbotron">
-            <div class="container-fluid">
-                <h1 id="taichung">Taichung</h1>
-                <p></p>
-                <div class="row">
-                    <div class="col-md-">
-                        <div class="thumbnail"><img src="" alt="">
-                            <div class="caption">
-                                <h2></h2>
-                                <p></p>
+        <div class="taichung">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1 id="taichung">Taichung</h1>
+                    <p></p>
+    <!--                 <div class="row">
+                        <div class="col-md-">
+                            <div class="thumbnail"><img src="" alt="">
+                                <div class="caption">
+                                    <h2></h2>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
                 </div>
-                <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
             </div>
         </div>
         <!-- Jumbotron + Thumbnail 4 Tainan -->
-        <div class="jumbotron">
-            <div class="container-fluid">
-                <h1 id="tainan">Tainan</h1>
-                <p></p>
-                <div class="row">
-                    <div class="col-md-">
-                        <div class="thumbnail"><img src="" alt="">
-                            <div class="caption">
-                                <h2></h2>
-                                <p></p>
+        <div class="tainan">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1 id="tainan">Tainan</h1>
+                    <h2></h2>
+                    <p></p>
+    <!--                 <div class="row">
+                        <div class="col-md-">
+                            <div class="thumbnail"><img src="" alt="">
+                                <div class="caption">
+                                    <h2></h2>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
                 </div>
-                <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
             </div>
         </div>
         <!-- Jumbotron + Thumbnail 5 Kaohsung -->
-        <div class="jumbotron">
-            <div class="container-fluid">
-                <h1 id="kaohsung">Kaohsung</h1>
-                <p></p>
-                <div class="row">
-                    <div class="col-md-">
-                        <div class="thumbnail"><img src="" alt="">
-                            <div class="caption">
-                                <h2></h2>
-                                <p></p>
+        <div class="kaohsiung">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1 id="kaohsiung">Kaohsiung</h1>
+                    <h2>打狗 ‧ たかお</h2>
+                    <p></p>
+    <!--                 <div class="row">
+                        <div class="col-md-">
+                            <div class="thumbnail"><img src="" alt="">
+                                <div class="caption">
+                                    <h2></h2>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
                 </div>
-                <p align="right"><a class="btn btn-info btn-large" href="#travel">Top</a></p>
             </div>
         </div>
         <hr>

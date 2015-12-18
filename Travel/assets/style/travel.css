@@ -5,6 +5,10 @@ footer:after {
     display: block;
 }
 
+.navbar-header li{
+	margin: 30px 0px 0 20px;
+}
+
 .dropdown {
     -webkit-transition: width3s, height3s, background-color3s, duration3s;
     transition: width3s, height3s, background-color3s, duration 3s;
@@ -27,11 +31,20 @@ footer:after {
 .dropdown ul:hover {
     background-color: rgba(251, 189, 251, 0.4);
     color: rgb(222, 71, 158);
+    width: 10px;
+    height: 200px;
     /*    background-color: rgba(0, 0, 0, 0.8);*/
     /*    color: rgb(248, 24, 61);*/
     /*    width: 15px;*/
 }
 
+.nav {
+	background-color: rgba(194, 190, 216, 0.1);
+	-webkit-border-radius: 30px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+
+}
 .topnav {
     text-align: center;
     margin: 30px 0;
@@ -46,7 +59,14 @@ footer:after {
     margin: 0 50px 5px 0;
     padding: 0;
     list-style: none;
-    display: inline-block;
+    display: inline-block;   
+    /*inline-block ===> let the ul be a horizontal direction*/
+}
+
+.topnav #current{
+    text-shadow:8px 3px 3px #b0c4de;
+    padding: 5px 10px 5px 10px;
+    border-radius: 13px;
 }
 
 .title .jumbotron {
@@ -54,10 +74,14 @@ footer:after {
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #e6e6fa;
+    transition:background-image 2s;
+    -webkit-transition:background-image 2s;
 }
 
 .title .jumbotron:hover {
     background-image: url('../image/bg-2.jpg');
+    color: #2f4f4f;
 }
 
 .title .jumbotron .container {
@@ -83,15 +107,104 @@ footer:after {
     background-image: url('../image/bg-4.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'High Tower Text';    
+/*    transition-property:opacity ;
+    transition-duration:2s;
+    transition-timing-function:linear;*/
+
 }
+
+.japan .jumbotron:hover {
+    opacity: 0.8
+}
+
+.japan .row .thumbnail {
+    -webkit-border-radius: 50px;
+/*    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;*/
+
+}
+
+.japan .row img{
+	-webkit-border-radius: 30px;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-top-left-radius: 50px;
+    opacity: 0.9;
+    transition-property:background-image;
+    transition-duration:1s;
+    transition-timing-function:linear;
+}
+
+.japan .row img:hover {
+    opacity: 1.2;
+}
+
 
 .taipei .jumbotron {
     background-image: url('../image/taipei.jpg');
     background-repeat: no-repeat;
+    font-family: 'High Tower Text';
     height: 650px;
-    background-size: cover;
+/*    background-size: cover;*/
+    color: #7fffd4;
+    transition-property:background-image, color ;
+    transition-duration:2s;
+    transition-timing-function:linear;
 }
 
 .taipei .jumbotron:hover {
     background-image: url('../image/taipei2.jpg');
+    color: #00bfff;
+}
+
+.taichung .jumbotron {
+	background-image: url('../image/taichung.jpg');
+	background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    font-family: 'High Tower Text';
+    color: #7fffd4;
+    transition-property:background-image, color ;
+    transition-duration:2s;
+    transition-timing-function:linear;
+}
+
+.taichung .jumbotron:hover {
+	background-image: url('../image/taichung2.jpg');
+    color: #00bfff;
+}
+
+.tainan .jumbotron {
+    background-image: url('../image/tainan.jpg');
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    font-family: 'High Tower Text';
+    color: #7fffd4;
+    transition-property:background-image, color ;
+    transition-duration:2s;
+    transition-timing-function:linear;
+}
+
+.tainan .jumbotron:hover {
+    background-image: url('../image/tainan2.jpg');
+    color: #00bfff;
+}
+
+.kaohsiung .jumbotron {
+    background-image: url('../image/kaohsiung.jpg');
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    font-family: 'High Tower Text';
+    color: #7fffd4;
+    transition-property:background-image, color ;
+    transition-duration:2s;
+    transition-timing-function:linear;
+}
+
+.kaohsiung .jumbotron:hover {
+    background-image: url('../image/kaohsiung2.jpg');
+    color: #00bfff;
 }
