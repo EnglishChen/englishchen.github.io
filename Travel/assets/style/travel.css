@@ -159,7 +159,7 @@ footer:after {
 }
 
 .taichung .jumbotron {
-	background-image: url('../image/taichung.jpg');
+	background-image: url('../image/taichung.JPG');
 	background-repeat: no-repeat;
     height: 650px;
     background-size: cover;
@@ -171,12 +171,12 @@ footer:after {
 }
 
 .taichung .jumbotron:hover {
-	background-image: url('../image/taichung2.jpg');
+	background-image: url('../image/taichung2.JPG');
     color: #00bfff;
 }
 
 .tainan .jumbotron {
-    background-image: url('../image/tainan.jpg');
+    background-image: url('../image/tainan.JPG');
     background-repeat: no-repeat;
     height: 650px;
     background-size: cover;
@@ -188,12 +188,12 @@ footer:after {
 }
 
 .tainan .jumbotron:hover {
-    background-image: url('../image/tainan2.jpg');
+    background-image: url('../image/tainan2.JPG');
     color: #00bfff;
 }
 
 .kaohsiung .jumbotron {
-    background-image: url('../image/kaohsiung.jpg');
+    background-image: url('../image/kaohsiung.JPG');
     background-repeat: no-repeat;
     height: 650px;
     background-size: cover;
@@ -205,6 +205,6 @@ footer:after {
 }
 
 .kaohsiung .jumbotron:hover {
-    background-image: url('../image/kaohsiung2.jpg');
+    background-image: url('../image/kaohsiung2.JPG');
     color: #00bfff;
 }

@@ -69,6 +69,17 @@ footer:after {
     border-radius: 13px;
 }
 
+
+.title .jumbotron {
+    background-image: url('../image/harrypotter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    font-family: 'High Tower Text';
+}
+
+
 .dog .jumbotron{
     background-image: url('../image/wood.jpg');
     background-repeat: repeat;
@@ -77,8 +88,16 @@ footer:after {
 }
 
 .dog .jumbotron h2{
-    font-family: 微軟正黑體;
+    font-family: '微軟正黑體';
     text-shadow: 8px 3px 3px #2f4f4f;
+    margin: 20px 50px 10px 50px;
+    text-align: center;
+}
+
+.dog .jumbotron p{
+    font-family: '微軟正黑體';
+    color: #708090;
+    margin: 20px 50px 20px 50px;
 }
 
 /*.dog .jumbotron p{
